@@ -1,0 +1,19 @@
+.fixed {position:fixed; top:60px; right:30px;}
+@media (max-width: 767.98px){.fixed{right: inherit;}}
+.closed-sidebar:not(.closed-sidebar-mobile) .app-header .app-header__logo .logo-src {display: block;}
+.closed-sidebar:not(.closed-sidebar-mobile) .app-header .app-header__logo{width: 180px;}
+.closed-sidebar:not(.closed-sidebar-mobile) .app-header .app-header__logo .header__pane{display: none;}
+#reading_percentage{padding: 0px;}
+#reading_percentage .bar{height: 4px; background: #3f6ad8;}
+.header_reading .scroll-area-sm{height: 150px; background: url("../images/background-scrollable.png") no-repeat right;}
+.menu_separator{border-right: 1px dashed rgba(0,0,0,0.1)}
+.title_chapter{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;}
+.button_expand_mobile{display: none;}
+@media (max-width: 991.98px){.navbar_uncollapsed_desktop{display: none;}.app-main__inner{padding-top:0px!important;}.title_chapter{position:inherit;width:inherit;height:inherit;overflow:inherit;}.button_expand_mobile{display: block; position: fixed; top: 90px; right: 10px; z-index: 20; border-radius: 15px; height: 30px; width: 30px;line-height: 26px; padding: 0px;}}
+figcaption{text-align: center;font-style: italic;}
+.bigger_font{font-size: 2rem;}
+.lower_font{font-size: 1.2rem;}
+.book_index{font-size: 1.1rem;  list-style-type: none;}
+.book_index .active_chapter{font-size: 1.4rem;}
+.title_chapter_nav{font-size: 2rem;}
+mark{background: yellow;}

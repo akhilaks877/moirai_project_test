@@ -1,0 +1,2232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Moiraï Publishing Platform</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes, shrink-to-fit=yes" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--
+    =========================================================
+    * ArchitectUI HTML Theme Dashboard - v1.0.0
+    =========================================================
+    * Product Page: https://dashboardpack.com
+    * Copyright 2019 DashboardPack (https://dashboardpack.com)
+    * Licensed under MIT (https://github.com/DashboardPack/architectui-html-theme-free/blob/master/LICENSE)
+    =========================================================
+    * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    -->
+    <link href="./main.css" rel="stylesheet">
+    <link href="./reader.css" rel="stylesheet">
+    <link href="./front_teacher_student.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- These two links are here to optimize the screenreader users experience -->
+    <a class="skip-main just_for_screereaders" tabindex="-1" href="#main_content">Skip to Main Content</a>
+    <a class="skip-main just_for_screereaders" tabindex="-1" href="accessibility.html">Change Accessibility Settings</a>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+
+        <!-- Header beginning -->
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <span class="fa fa-ellipsis-v fa-w-6"></span>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            class="p-0 btn" role="button">
+                                            <img width="42" class="rounded-circle"
+                                                src="assets/images/avatars/placeholder_profile.jpg"
+                                                alt="Your profile picture">
+                                            <span class="fa fa-angle-down ml-2 opacity-8"></span>
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true"
+                                            class="dropdown-menu dropdown-menu-right">
+                                            <a href="accessibility.html" tabindex="0"
+                                                class="dropdown-item">Accessibility</a>
+                                            <a href="my-account.html" tabindex="0" class="dropdown-item">My Account</a>
+                                            <a href="my-badges.html" tabindex="0" class="dropdown-item">My Badges</a>
+                                            <a href="faq.html" tabindex="1" class="dropdown-item">FAQ</a>
+                                            <a href="log-out.html" tabindex="1" class="dropdown-item">Log Out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                        John Doe
+                                    </div>
+                                    <div class="widget-subheading">
+                                        Student
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header end -->
+
+        <div class="app-main">
+            <!-- Sidebar beginning -->
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <span class="fa fa-ellipsis-v fa-w-6"></span>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+                <div class="scrollbar-container ps--active-y ps"></div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Library Management</li>
+                            <li>
+                                <a href="all-titles.html">
+                                    <span class="metismenu-icon pe-7s-albums"></span>
+                                    View All Titles
+                                </a>
+                            </li>
+                            <li>
+            
+                                <a href="books_detail_student.html" class="mm-active">
+                                    <span class="metismenu-icon pe-7s-notebook"></span>
+                                    Book Title 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="books_detail_student.html">
+                                    <span class="metismenu-icon pe-7s-notebook"></span>
+                                    Book Title 2
+                                </a>
+                            </li>
+            
+                            <li class="app-sidebar__heading">Classes</li>
+                            <li>
+                                <a href="my-classes_student.html">
+                                    <span class="metismenu-icon pe-7s-users"></span>
+                                    My Classes
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar end -->
+            <!-- Page content beginning -->
+            <div class="app-main__outer" id="main_content">
+    <div id="introduction">
+        <div class="app-main__inner">
+
+            <a data-toggle="collapse" href="#reading_nav" class="btn-open-options btn btn-primary button_expand_mobile"
+                aria-expanded="false"><span class="fa fa-indent fa-w-16"></span></a>
+
+            <div class="parent_header_reading">
+                <div class="header_reading">
+                    <div class="row navbar_uncollapsed_desktop">
+                        <div class="col-md-9">
+                            <h1 class="ml-2 mt-2 title_chapter_nav">Introduction</h1>
+                        </div>
+                        <div class="col-md-3">
+                            <a data-toggle="collapse" href="#reading_nav"
+                                class="btn btn-primary float-right m-2 book_navigation" aria-expanded="true"><span
+                                    class="sign">+</span> Book Navigation</a>
+                        </div>
+                    </div>
+
+                    <div class="collapse row" id="reading_nav">
+                        <div class="col-md-12">
+                            <hr class="m-0">
+                        </div>
+                        <div class="col-md-8 pr-0 menu_separator">
+
+                            <div class="card-body pr-0">
+
+                                <h2 class="card-title">Table of Contents</h2>
+                                <div class="scroll-area-sm">
+                                    <div class="scrollbar-container ps--active-y ps">
+                                        <ul class="book_index p-0">
+                                            <li><a href="#">Chapter 1: Lorem Ipsum dolor sit amet</a></li>
+                                            <li class="active_chapter pl-3">Chapter 2: Lorem Ipsum dolor sit
+                                                amet</li>
+                                            <li><a href="#">Chapter 3: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 4: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 5: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 6: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 7: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 8: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 9: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 10: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 11: Lorem Ipsum dolor sit amet</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pr-3">
+                                <hr class="d-md-none">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="position-relative">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="d-inline-block  pl-2 pt-3">Font size: </p>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <a href="#" class="bigger_font pl-2 pr-2">A<sup>+</sup></a>
+                                        <a href="#" class="lower_font pl-2 pr-2">A<sup>-</sup></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label pl-2" for="note_editeur">View Editor's
+                                        Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_editeur" checked data-toggle="toggle" data-size="small"
+                                        data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_teacher">View Teacher's
+                                        Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_teacher" data-toggle="toggle" data-size="small"
+                                        data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_perso">View My
+                                        Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_perso" data-toggle="toggle" data-size="small"
+                                        data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-3 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_add">Enable Note
+                                        Editing</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_add" data-toggle="toggle" data-size="small"
+                                        data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" id="reading_percentage">
+                        <div class="bar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 25%;" role="progressbar"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-content size_temoin">
+                <div class="tab-pane tabs-animation fade show active">
+                    <div class="main-card mb-3 card">
+                        <!-- the class here will change according to the part of the book : Introcution, table_of_content, chapter ...-->
+                        <div class="card-body introduction">
+
+                            <!-- The cover is always the image taken from the database. We need to upload the cover when we create a new book-->
+                            <img src="./assets/book/cover.png" title="" alt="" class="img-fluid mx-auto d-block" />
+                            <!-- The title taken from the database. A title is always added when we create a new book-->
+                            <h2 class="standard_main_title">title of the book</h2>
+                            <!-- This line will always be displayed after the title -->
+                            <span class="copyright">&copy; Éditions Moirai</span><br /><br />
+
+                            <!-- Those lines come from the xml -->
+                            <span class="preface_txt_1">Conception éditoriale : blablablabla</span><br />
+                            <span class="preface_txt_2">Conception éditoriale : blablablabla</span><br />
+                            <span class="preface_txt_3">Conception éditoriale : blablablabla</span><br />
+                            <span class="preface_txt_4">Conception éditoriale : blablablabla</span><br />
+                            <span class="preface_txt_5">Conception éditoriale : blablablabla</span><br />
+                            <span class="preface_txt_6">Conception éditoriale : blablablabla</span><br />
+                            <span class="preface_txt_7">Conception éditoriale : blablablabla</span><br />
+
+                            <p class="preface_txt_principal">
+                                Itation eatur re voluptur minctat ibusandicil moloriantur,
+                                ani siti re, et minulparibus dolloria esectur sequostium que
+                                voluptat.
+                                Ucipsun tinveliciant venimus esti dus et, quidestias estem
+                                int.
+                                Offictem atincim inctem ressi volupti onserum quide non
+                                nonsedit, tem. Ut aut ra sit eossit officat acerorumqui acest
+                                ut la inciendis nuscit aut que cullecum expligniam doluptatusam
+                                que lanihil iquidisquidMet, quis elist, optaspitatas exerovite
+                                dit eaquia quossere et fuga. Nequidipit labo. Ibeario
+                                eume eosam, quia qui ium labor sim il molum voluptaecti
+                                diae vel molupta sinvele ssinto optur sanis il is exerciat.
+                                Ro et ratior aut reribusa ditae. Ut rati distem exerrumquam
+                                res eiuntemquia qui bearuptum invel et es aut libus, corion
+                                nonse mod quam, quatur?
+                                Cae in pa quate militas et maximpo rendae velitas simusan
+                            </p>
+
+                            <!-- This block will always be added after preface_txt_principal. It's not part of the XML as it won't change between books -->
+                            <div class="row moirai_data">
+                                <div class="col-md-3 d-flex align-items-center">
+                                    <img src="./assets/images/logo-inverse.png" class="img-fluid" />
+                                </div>
+                                <div class="col-md-3 d-flex align-items-center">
+                                    5445 avenue de Gaspé<br />
+                                    Montréal (Québec) Canada H2T 3V7<br />
+                                    Téléphone : 000 000 0000<br />
+                                    info@editionsmoirai.com<br />
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <div class="rights_policy">
+                                        <strong>TOUS DROITS RÉSERVÉS.</strong><br />
+                                        Toute reproduction, en tout ou en partie, sous toute forme ou média et
+                                        par quelque procédé que ce soit, est interdite sans l’autorisation
+                                        écrite des Éditions Moiraï inc.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Those lines come from the xml -->
+                            <p class="preface_txt_secondaire">Itation eatur re voluptur minctat ibusandicil
+                                moloriantur, ani siti re, et minulparibus dolloria esectur sequostium que
+                                voluptat. Ucipsun tinveliciant venimus esti dus et, quidestias estem int.</p>
+                            <h2 class="avantpropos_title">AVANT-PROPOS</h2>
+                            <p class="avantpropos_txt_1">
+                                Adi optatiae non consequat repeliq uation nus ea quo bea perum etur, ea quis
+                                accae. Fugia nonestrum quaspero vollaborae prest, ipsam, te accaborro
+                                blatiamutet est, optur? Beatist, core comnis maion eles quate cupta dolo cus a
+                                dolorrum quatis est re, quo doluptat offic tet volo voluptatquid maiossimin cor
+                                maionsequidi dolorporem faccus esequibus, qui autesto tatatia accus acerfer
+                                chillant aut aut quaecti cum ut hilla perianti acit autae sum que simolor
+                                epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati sequi
+                                sit volut alicaeptiame minctio. Git re corrovitas et, ipsam quiati sum
+                                sundantur, occabo. Cum sum que dit doluptae ped magnam, sus raturio remostiatet
+                                venditatur aut vollaborro idesed.Henis eum ilique nonsequiate velitatur, occus
+                                et as eaquam quatecum eumquia se venector rem inctis deliqui ipsamus as quos a
+                                intisque simusciisque pelesti onsequodit, adi acearib ustiur, cus, acime por aut
+                                dolupta vent et qui odicid ut etur am nobit omnihil inventur, tecus etusa con
+                                nonsequi doluptiaepe volupti ssitas sint in porem rem nullaborro odi ne si
+                                cullabo. Lorro ipsamus,occuptaquae volor moluptio tem et voloreped maximag
+                                nienti re corumut quias sequae niendis audae nime dolectissit re conemoles ea pa
+                                solum soloque sectota tiumquatium et, occabor escimus.Daectureceat excepellam
+                                sim ea quam ipitati volor rehendit, optatur sit occatempora delenimin pos mint
+                                eiciet quodia is dolest est volestiur maximesitaquist aut es dolorio. Bit ea
+                                sinverae rerovit, sandam, ulparch itatquidus,sequi berum consequid ullia sit
+                                quasperro cumendam re voluptat vollanimincoriam am nos consenimus rehenistrunt
+                                et qui que suntis quata pa ne sequiatenobis nos audit, ent ut ut omnit omnissin
+                                plab iunt hit aut quat eum ut autfacest voluptat.
+                            </p>
+                            <em class="avantpropos_citation_1">"Pudipici psameni moluptibus exerum rerum que
+                                pratemp orporessum rem que plique quassunt."</em>
+                            <p class="avantpropos_txt_2">
+                                Ur, utaturem. Nequatam demposae. Parum a serrume solupici consequiata videndis
+                                nis erum quate que ea delestius esequo con nobit rectibus excerchicia consed ea
+                                cone doluptas providem ea nia velit fugitem reium, ius qui con cone sitis
+                                explique vidissit amus quis reped et deris qui dolor sitatur?
+                            </p>
+
+
+
+
+                            <div class="row d-flex">
+                                <div class="col-md-6 mx-auto">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row chapter_nav">
+                                <div class="col-6 d-flex">
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_3.html" class="mt-2 ml-1 btn btn-primary mx-auto">Table des
+                                        matières</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tableofcontant">
+        <div class="app-main__inner">
+            <a data-toggle="collapse" href="#reading_nav"
+                class="btn-open-options btn btn-primary button_expand_mobile" aria-expanded="false"><span
+                    class="fa fa-indent fa-w-16"></span></a>
+
+            <div class="parent_header_reading">
+                <div class="header_reading">
+                    <div class="row navbar_uncollapsed_desktop">
+                        <div class="col-md-9">
+                            <h1 class="ml-2 mt-2 title_chapter_nav">
+                                Table des matières
+                            </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <a data-toggle="collapse" href="#reading_nav"
+                                class="btn btn-primary float-right m-2 book_navigation"
+                                aria-expanded="true"><span class="sign">+</span> Book
+                                Navigation</a>
+                        </div>
+                    </div>
+
+                    <div class="collapse row" id="reading_nav">
+                        <div class="col-md-12">
+                            <hr class="m-0" />
+                        </div>
+                        <div class="col-md-8 pr-0 menu_separator">
+                            <div class="card-body pr-0">
+                                <h2 class="card-title">
+                                    Table of Contents
+                                </h2>
+                                <div class="scroll-area-sm">
+                                    <div class="scrollbar-container ps--active-y ps">
+                                        <ul class="book_index p-0">
+                                            <li>
+                                                <a href="#">Chapter 1:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li class="active_chapter pl-3">
+                                                Chapter 2: Lorem
+                                                Ipsum dolor sit amet
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 3:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 4:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 5:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 6:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 7:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 8:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 9:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 10:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chapter 11:
+                                                    Lorem Ipsum
+                                                    dolor sit
+                                                    amet</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pr-3">
+                                <hr class="d-md-none" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="position-relative">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="d-inline-block  pl-2 pt-3">
+                                            Font size:
+                                        </p>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <a href="#" class="bigger_font pl-2 pr-2">A<sup>+</sup></a>
+                                        <a href="#" class="lower_font pl-2 pr-2">A<sup>-</sup></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label pl-2" for="note_editeur">View Editor's
+                                        Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_editeur" checked data-toggle="toggle"
+                                        data-size="small" data-onstyle="primary" data-offstyle="light" />
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_teacher">View Teacher's
+                                        Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_teacher" data-toggle="toggle"
+                                        data-size="small" data-onstyle="primary" data-offstyle="light" />
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_perso">View My
+                                        Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_perso" data-toggle="toggle"
+                                        data-size="small" data-onstyle="primary" data-offstyle="light" />
+                                </div>
+                            </div>
+                            <div class="position-relative mb-3 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_add">Enable Note
+                                        Editing</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_add" data-toggle="toggle" data-size="small"
+                                        data-onstyle="primary" data-offstyle="light" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" id="reading_percentage">
+                        <div class="bar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 25%;" role="progressbar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content size_temoin">
+                <div class="tab-pane tabs-animation fade show active">
+                    <div class="main-card mb-3 card">
+                        <!-- the class here will change according to the part of the book : Introcution, table_of_content, chapter ...-->
+                        <div class=" pb-4 table_of_content">
+                            <div class="row">
+                                <div class="col-md-12 px-4">
+                                    <!-- The table of content is generated from the chapters uploaded through the xml The colors also come from the XML with the field : -->
+                                    <!-- The title is always the same -->
+                                    <h2 class="standard_main_title">
+                                        Table des matières
+                                    </h2>
+                                    <img class="img-fluid" src="assets/book/transp_for_size.png" />
+                                    <h3 class="partie_title">
+                                        <strong><a href="#">PARTIE 1 [Titre de
+                                                la partie 1]</a></strong>
+                                    </h3>
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #feba15; ">CHAPITRE 1
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #53c5cf; ">CHAPITRE 2
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #d2e288; ">CHAPITRE 3
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #f48473; ">CHAPITRE 4
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <h3 class="partie_title">
+                                        <strong><a href="#">PARTIE 2 [Titre de
+                                                la partie 2]</a></strong>
+                                    </h3>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #f599b2; ">CHAPITRE 5
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #f9a755; ">CHAPITRE 6
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #a1c1e5; ">CHAPITRE 7
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <h3 class="partie_title">
+                                        <strong><a href="#">PARTIE 3 [Titre de
+                                                la partie 3]</a></strong>
+                                    </h3>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #fecc4d; ">CHAPITRE 8
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #9ad3b0; ">CHAPITRE 9
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #bca7d0; ">CHAPITRE 10
+                                        </span>
+                                        <h4 class="chapter_title">
+                                            [TITRE DU CHAPITRE]
+                                        </h4>
+                                    </a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.1 Pellaborem
+                                                volenihil inctiatem
+                                                aspe lam</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">1.2 Pellaborem
+                                                vole</a>
+                                        </li>
+                                        <ol>
+                                            <li>
+                                                1.1.1 Pellaborem
+                                                volenihil inctiatem
+                                            </li>
+                                            <li>
+                                                1.1.2 volenihil
+                                                inctiatem aspe lam
+                                            </li>
+                                        </ol>
+                                    </ol>
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #f26649; ">Tests</span></a>
+                                    <br />
+
+                                    <a href="#"><span class="chapter_number"
+                                            style="background-color: #ebe9e1; ">Annexes</span></a>
+                                    <ol>
+                                        <li class="parapraph_title">
+                                            <a href="#">Bibliographie</a>
+                                        </li>
+                                        <li class="parapraph_title">
+                                            <a href="#">Iconographie</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+
+                            <div class="row d-flex">
+                                <div class="col-md-6 mx-auto">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row chapter_nav">
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_2.html"
+                                        class="mt-2 ml-1 btn btn-primary mx-auto">&lt;&lt; Introduction</a>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_4.html"
+                                        class="mt-2 ml-1 btn btn-primary mx-auto">Chapter 1 &gt;&gt;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="chapter1">
+        <div class="app-main__inner">
+				
+            <a data-toggle="collapse" href="#reading_nav" class="btn-open-options btn btn-primary button_expand_mobile" aria-expanded="false"><span class="fa fa-indent fa-w-16"></span></a>
+            
+            <div class="parent_header_reading">
+                <div class="header_reading">
+                    <div class="row navbar_uncollapsed_desktop">
+                        <div class="col-md-9">
+                            <h1 class="ml-2 mt-2 title_chapter_nav">Chapter 1: Lorem Ipsum dolor sit amet</h1>
+                        </div>
+                        <div class="col-md-3">
+                            <a data-toggle="collapse" href="#reading_nav" class="btn btn-primary float-right m-2 book_navigation" aria-expanded="true"><span class="sign">+</span> Book Navigation</a>
+                        </div>
+                    </div>
+                    
+                    <div class="collapse row" id="reading_nav" >
+                        <div class="col-md-12">
+                            <hr class="m-0">
+                        </div>
+                        <div class="col-md-8 pr-0 menu_separator">
+                        
+                            <div class="card-body pr-0">
+                                
+                                <h2 class="card-title">Table of Contents</h2>
+                                <div class="scroll-area-sm">
+                                    <div class="scrollbar-container ps--active-y ps">
+                                        <ul class="book_index p-0">
+                                            <li><a href="#">Chapter 1: Lorem Ipsum dolor sit amet</a></li>
+                                            <li class="active_chapter pl-3">Chapter 2: Lorem Ipsum dolor sit amet</li>
+                                            <li><a href="#">Chapter 3: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 4: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 5: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 6: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 7: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 8: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 9: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 10: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 11: Lorem Ipsum dolor sit amet</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pr-3">
+                                <hr class="d-md-none">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="position-relative">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="d-inline-block  pl-2 pt-3">Font size: </p>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <a href="#" class="bigger_font pl-2 pr-2">A<sup>+</sup></a>
+                                        <a href="#" class="lower_font pl-2 pr-2">A<sup>-</sup></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label pl-2" for="note_editeur">View Editor's Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_editeur" checked data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_teacher">View Teacher's Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_teacher" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_perso">View My Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_perso" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>										
+                            </div>
+                            <div class="position-relative mb-3 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_add">Enable Note Editing</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_add" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12" id="reading_percentage">
+                        <div class="bar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;" role="progressbar"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tab-content size_temoin">
+                <div class="tab-pane tabs-animation fade show active">
+                    <div class="main-card mb-3 card">
+                        <!-- the class here will change according to the part of the book : Introcution, table_of_content, chapter ...-->
+                        <div class="chapter pb-4">
+                            
+                            <!-- The table of content is generated from the chapters uploaded through the xml
+                            The colors also come from the XML with the field : -->
+                            <!-- The title is always the same -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="partie_block px-4">
+                                        <h3 class="partie_title display-1 my-2 ">Partie 1</h3>
+                                        <span class="partie_subtitle display-4">[Titre de la partie]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row" >
+                                <div class="col-md-12">
+                                    <div  style="background: #feba15;">
+                                        <div class="row chapter_title_container d-flex">
+                                                <div class="col-12 col-md-6 text-right align-self-center py-5 py-md-0">
+                                                    <div class="" style="display: block; float: left; width: 20%;line-height: 0;">
+                                                        <span class="chapter_label font-weight-bold text-uppercase">CHAPITRE</span><br />
+                                                        <span class="chapter_number display-1">1</span>
+                                                    </div>
+                                                    <h4 class="chapter_title text-left" style="display: block; float: left; width: 80%; margin-top: 58px;">
+                                                        Passit fugiatium incipsa pedigen ihiciis dignim 
+                                                    </h4>
+                                                </div>
+                                            <div class="col-12 col-md-6"> <img src="./assets/book/chapter_image.png" alt="" title="" class="img-fluid" ></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row objectifs_aprentissage px-4 py-5">
+                                <div class="col-12">
+                                    <h5 class="basic_subtitle mb-5">Objectifs d'aprentissage</h5>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="objectif_counter" style="background-color: #feba15;">1</div>
+                                    <div class="objectif">
+                                        <h6 class="chapitre_objectif_title font-weight-bold">Molorit lateceaque est facea</h6>
+                                        <span class="chapitre_objectif_txt">Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspedi</span>
+                                    </div>
+                                    <div class="objectif_counter" style="background-color: #feba15;">2</div>
+                                    <div class="objectif">
+                                        <h6 class="chapitre_objectif_title font-weight-bold">Molorit lateceaque est facea</h6>
+                                        <span class="chapitre_objectif_txt">Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspedi</span>
+                                    </div>
+                                    <div class="objectif_counter" style="background-color: #feba15;">3</div>
+                                    <div class="objectif">
+                                        <h6 class="chapitre_objectif_title font-weight-bold">Molorit lateceaque est facea</h6>
+                                        <span class="chapitre_objectif_txt">Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspedi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="objectif_counter" style="background-color: #feba15;">4</div>
+                                    <div class="objectif">
+                                        <h6 class="chapitre_objectif_title font-weight-bold">Molorit lateceaque est facea</h6>
+                                        <span class="chapitre_objectif_txt">Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspedi</span>
+                                    </div>
+                                    <div class="objectif_counter" style="background-color: #feba15;">5</div>
+                                    <div class="objectif">
+                                        <h6 class="chapitre_objectif_title font-weight-bold">Molorit lateceaque est facea</h6>
+                                        <span class="chapitre_objectif_txt">Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspedi</span>
+                                    </div>
+                                    <div class="objectif_counter" style="background-color: #feba15;">6</div>
+                                    <div class="objectif">
+                                        <h6 class="chapitre_objectif_title font-weight-bold">Molorit lateceaque est facea</h6>
+                                        <span class="chapitre_objectif_txt">Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspedi</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="row mt-4 mise-en-situation" >
+                                <div class="col-md-12">
+                                    <div  style="background: #feba15;">
+                                        <div class="row px-4 py-5">
+                                            <div class="col-12">
+                                                <h5 class="basic_subtitle mb-4">Mise en situation</h5>
+                                                <p>
+                                                    Adi optatiae non consequat repeliq uation nus ea
+                                                    quo bea perum etur, ea quis accae. Fugia nonestrum
+                                                    quaspero vollaborae prest, ipsam, te accaborro
+                                                    blatiam utet est, optur?
+                                                    Beatist, core comnis maion eles quate cupta dolo
+                                                    cus a dolorrum quatis est re, quo doluptat offic tet
+                                                    volo voluptatquid maiossimin cor maionsequidi dolorporem
+                                                    faccus esequibus, qui autesto tatatia accus
+                                                    acerfer chillant aut aut quaecti cum ut hilla perianti
+                                                    acit autae sum que simolor epelique.Aximusament
+                                                    molora volorumenime si ut autendi andandi pidiatesciis
+                                                    dem. Et ilit aditatibus et, ni aspieni minciatiis
+                                                    doluptaquam.Nosamet ditatio repelique pelit,
+                                                    quas eos ent dolorro beruptatium eossit, occatusae
+                                                    niet rernatur, corionse incia dessum utatur sitatur?
+                                                    Lo de doluptius sitatio. Dolumque millaborem re id
+                                                    unt voluptatint, omnimpo reriam autenem voleces
+                                                    etur repellam, core es nobit eicil is porera duntin
+                                                    pos por anducias amus qui cone corere aut peratur,
+                                                    atempor sed eum dit qui bernat.
+                                                    Bo. Ut quamusdae verest maximost, se idisi bere
+                                                    perovid qui disse sende pratiis et ad maximpore,
+                                                    alitior ibeat. Os id et quam abo. Ut ea verci veris
+                                                    conet, ut aceprorehent a et lia sitat laut demporum
+                                                    con nostruptate es ipienit voloresequas eos sitasin
+                                                    vellacepe re, consentur? Caborem quam, earum
+                                                    ent ipis ex evellatectio venit voluptat ad est, sedigen
+                                                    ditiur? Idebit ent, sumquatem landit harchillab
+                                                    ipsus, consequassi reiundemolo totatio restrum, qui
+                                                    simuscipiet et dia nat il id que plabo.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row chapter_content px-4 py-5">
+                                <div class="col-12">
+                                    <p>
+                                        Seratem id quas aut ipsunti doloria sperum simaio min cum aceped quaernam
+                                        aut quo optint doluptam, con pro quiatet aut pedignim que earcilit doluptata
+                                        si dolo diti ilic to quat am eicatiunt ide doluptaquis andelis que volorep tatem.
+                                        <a href="#nogo" style="color: #feba15;" class="font-weight-bold" data-toggle="tooltip" data-placement="top" title="Aliquam vel tellus laoreet metus lacinia ullamcorper non ut metus.Optis alitium quiscipsam.">
+                                            Maioresci 
+                                        </a> nonseces dolupie ntionsecea nonse solupti busdanis dolupta tquuntorem
+                                        ati volorpore, inctorporem dolorporum et est, nonsedit eum esto volor
+                                        aut quod enimil ideles doluptia verit postiorum lab intoriore is excersperate
+                                        prae. Et voluptatio cone liti sus mil excero temoluptam adis acest andani a voluptatium
+                                        faccatem. Faccabor sequi dicia sust, omni inctur andebis excerferum
+                                        core, qui bere restest ecatum res expe nus derum eostrum aperibus nonem laccupti
+                                        il maior magnistium, qui berita sam enet acimintiam, eaquis aliquas aut
+                                        dit et eum conecat emoles et il invelent am fugiasi simpell acerferias ex expersp
+                                        idemque pore expe cor min perspelit, conse quuntis doluptat ut et quiaerio idestrupta
+                                        velit rem venis nostiatquodi quaest paria videribus es erios ium endam,
+                                        cum abo. Nam, quibus rem iusam inullau tatinv.Archiciam, exerio tem sam
+                                        venet alitaepudam quae id quaerrovit et iducid quia net fugit asi volupiendae.
+                                        Volecaborrum id eatecto tatiusda dolores esequi dundam. Daessuntibus et ea
+                                        inis eum fuga. It verum sam am, cum et fugit utet reratiunda cum sinvenescit
+                                        prehendis dolor restet, sam dolore, quibus moluptaectum voles in event eaquodias
+                                        estis aut que a aut ent dolorec tatibus quiatetur modis peditati beruptas
+                                        volenist ut elest ipsaperia volestio quid quam, vellab ipsamus ma ipsam rempediorum
+                                        es ea quia aut dolore consequibus, et aut quam quatur si con reptur?
+                                    </p>
+                                        <figure class="figure img-insert-txt col-12 col-md-6 col-lg-5">
+                                            <img class="img-fluid" alt="" title="" src="http://placekitten.com/g/600/400">
+                                            <figcaption class="text-right">This caption is here to link with the image that is being displayed</figcaption>
+                                        </figure>
+                                    <p>	Volecaborrum id eatecto tatiusda dolores esequi dundam. Daessuntibus et ea
+                                        inis eum fuga. It verum sam am, cum et fugit utet
+                                        reratiunda cum sinvenescit prehendis dolor restet,
+                                        sam dolore, quibus moluptaectum voles in event
+                                        eaquodias estis aut que a aut ent dolorec tatibus
+                                        quiatetur modis peditati beruptas volenist ut elest
+                                        ipsaperia volestio quid quam, vellab ipsamus ma ipsam
+                                        rempediorum es ea quia aut dolore consequibus,
+                                        et aut quam quatur si con reptur?Volecaborrum
+                                        id eatecto tatiusda dolores esequi dundam.
+                                        Daessuntibus et ea inis eum fuga. It verum sam
+                                        am, cum et fugit utet reratiunda cum sinvenescit
+                                        prehendis dolor restet, sam dolore, quibus moluptaectum
+                                        voles in event eaquodias estis aut que a aut
+                                        ent dolorec tatibus quiatetur modis pedi.
+                                    </p>
+                                </div>
+
+                                <div class="col-12 chapitre_section">
+                                    <span class="section_number" style="background-color: #feba15; ">1.1</span> <h5 class="section_title">Le titre de la section</h5>
+                                    <p class="section_intro">
+                                        Simus, con nat. Ectotaecum id quunt quiat.Pudipici psameni moluptibus
+                                        exerum rerum que pratemp orporessum rem que plique quassunt.
+                                        Adi optatiae non consequat repeliq uation nus ea quo bea perum etur, ea quis
+                                        accae. Fugia nonestrum quaspero vollaborae prest, ipsam, te accaborro blatiam
+                                        utet est, optur?
+                                    </p>
+
+                                    <h6 class="paragraph_title"><span style="background-color: #feba15;" class="number">1.1.1</span> Le titre de la section</h6>
+                                    <p class="paragraph_intro">
+                                        Beatist, core comnis maion eles quate cupta dolo cus a dolorrum quatis est re,
+                                        quo. Accus acerfer chillant aut aut quaecti cum ut hil.
+                                    </p>
+
+
+
+
+
+
+                                    <h6 class="paragraph_subtitle">
+                                        <span style="background-color: #feba15;" class="puce"></span>
+                                        Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                        Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                        explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                        Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                        doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                        Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                        con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                        Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+
+                                    <div class="rappel p-4">
+                                        <strong>Rappel</strong><br />
+                                        Aliquam vel tellus laoreet metus lacinia ullamcorper non ut metus. Pellentesque eu porta lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                    </div>
+
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                        Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                        explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                        Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                        doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                        Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                        con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                        Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+
+                                    <h6 class="paragraph_title"><span style="background-color: #feba15;" class="number">1.1.2</span> Le titre de la section</h6>
+                                    <p class="paragraph_intro">
+                                        Re doluptatem re di bea si occatiu scimus et et quiscid mod etus aut fugiam
+                                        seratem id quas aut ipsunti doloria sperum simaio min cum aceped quaernam
+                                        aut quo optint doluptam, con pro quiatet aut 
+                                        <a href="#nogo" style="color: #feba15;" class="font-weight-bold" data-toggle="tooltip" data-placement="top" title="Aliquam vel tellus laoreet metus lacinia ullamcorper non ut metus.Optis alitium quiscipsam.">
+                                        pedignim
+                                        </a>
+                                         que earcilit doluptata
+                                        si dolo diti ilic to quat am eicatiunt ide doluptaquis andelis que volorep tatem.
+                                        Maioresci nonseces dolupie ntionsecea nonse solupti busdanis.
+                                        Simus, con nat. Ectotaecum id quunt quiat.Pudipici psameni moluptibus
+                                        exerum rerum que pratemp orporessum rem que plique quassunt.
+                                    </p>
+
+                                    <h6 class="paragraph_title"><span style="background-color: #feba15;" class="number">1.1.3</span> Le titre de la section</h6>
+
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+
+                                    <figure class="figure img-insert-txt col-12 col-md-6 col-lg-5">
+                                        <img class="img-fluid" alt="" title="" src="http://placekitten.com/600/400">
+                                        <figcaption class="text-right">This caption is here to link with the image that is being displayed</figcaption>
+                                    </figure>
+
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                        Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                        explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                        Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                        doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                        Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                        con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                        Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                        Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                        explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                        Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                        doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                        Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                        con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                        Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+
+
+                                    <p class="en-savoir-plus ml-sm-5 ml-1 p-5">
+                                        <strong style="color: #feba15;">En savoir plus...</strong><br /><br />
+                                        Eri at intia volupta quas voloruptatia non pos idis et que nonsequibust auda doluptu reperem ilit idemquassum, nihil int, simus nis ad ene volo velitam ilissumenis et vellesciam rest, omnis delliti officiant fugit fugiae comnihitat pratibus volorestia nimi, quos et vidus qui sum aboriore sae. Bores etus ium harum
+                                    </p>
+
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    </p>
+
+                                    <blockquote class="blockquote">
+                                        "Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati"
+                                    </blockquote>
+
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    </p>
+
+                                    <div class="remarque p-3">
+                                        <strong class="text-uppercase">Remarque :</strong>
+                                        Eri at intia volupta quas voloruptatia non pos idis et que nonsequibust auda doluptu reperem ilit idemquassum, nihil int, simus nis ad ene.
+                                    </div>
+
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    </p>
+                                </div>
+
+                                <div class="col-12 chapitre_section">
+                                    <span class="section_number" style="background-color: #feba15; ">1.2</span> <h5 class="section_title">Le titre de la section</h5>
+                                    <p class="section_intro">
+                                        Simus, con nat. Ectotaecum id quunt quiat.Pudipici psameni moluptibus
+                                        exerum rerum que pratemp orporessum rem que plique quassunt.
+                                        Adi optatiae non consequat repeliq uation nus ea quo bea perum etur, ea quis
+                                        accae. Fugia nonestrum quaspero vollaborae prest, ipsam, te accaborro blatiam
+                                        utet est, optur?
+                                    </p>
+
+
+                                    <h6 class="paragraph_title"><span style="background-color: #feba15;" class="number">1.2.1</span>Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    </p>
+                                    
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum queAccus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliatiAccus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    </p>
+
+                                    <figure class="text-center">
+                                        <img class="img-fluid" alt="" title="" src="http://placekitten.com/900/400">
+                                        <figcaption>This caption is here to link with the image that is being displayed</figcaption>
+                                    </figure>
+
+                                    <p class="paragraph_txt">
+                                        Adi optatiae non consequat repeliq uation nus ea quo bea perum etur, ea quis
+                                        accae. Fugia nonestrum quaspero vollaborae prest, ipsam, te accaborro.
+                                        Volecaborrum id eatecto tatiusda dolores esequi dundam. Daessuntibus et ea
+                                        inis eum fuga. It verum sam am, cum et fugit utet reratiunda cum sinvenescit
+                                        prehendis dolor restet, sam dolore, quibus moluptaectum voles in event eaquodias
+                                        estis aut que a aut ent dolorec tatibus quiatetur modis peditati beruptas
+                                        volenist ut elest ipsaperia volestio quid quam, vellab ipsamus ma ipsam.
+                                        Rempediorum es ea quia aut dolore consequibus, et aut quam quatur si con
+                                        reptur? Quis denimus verum cuscient res aut lici consere que cumqui dolor
+                                        auditiuri bearum ius.
+                                    </p>
+
+                                    <div class="retenir">
+                                        <strong class="text-uppercase pl-4">À retenir :</strong>
+                                        <div class="content">
+                                            <strong class="text-uppercase">Pudipici psameni moluptibus exerum rerum que	pratemp orporessum rem que plique quassunt.</strong>
+                                            <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                                ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.Busam
+                                                erspitiae voluptate quaes nempor autem quate .</p>
+                                        </div>
+                                    </div>
+
+                                    <h6 class="paragraph_title"><span style="background-color: #feba15;" class="number">1.2.2</span> Le titre de la section</h6>
+
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                        Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                        explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                        Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                        doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                        Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                        con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                        Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                        Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                        explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                        Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                        doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                        Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                        con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                        Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+                                    <ul>
+                                        <li>Quiam faccus utempe cuptatium</li>
+                                        <li>Ulpa di solorum ex ea cus exero im</li>
+                                        <li>Hicietum ducit, culpa volum</li>
+                                    </ul>
+                                    <p class="paragraph_txt">
+                                        Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                        simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                        sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                        Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                        explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                        Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                        doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                        Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                        con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                        Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+
+                                    <div class="table-responsive">
+                                        <strong>Le titre du tableau</strong>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                  <th scope="col">Sujet</th>
+                                                  <th scope="col">Verbe</th>
+                                                  <th scope="col">Commentaire</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                  <td>Sumquas</td>
+                                                  <td>Sumquas</td>
+                                                  <td>Sumquas</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Sumquas</td>
+                                                  <td>Sumquas</td>
+                                                  <td>Sumquas</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Sumquas</td>
+                                                  <td>Sumquas</td>
+                                                  <td>Sumquas</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                    Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                    simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                    Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                    explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                    Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                    doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                    Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                    con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                    Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                    simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                    Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                    explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                    </p>
+                                    <div class="figure_with_title col-12 col-sm-6 col-md-6 col-lg-5">
+                                        <strong>Polygone d'apprentissage</strong>
+                                        <figure>
+                                            <img class="img-fluid" alt="" title="" src="http://placekitten.com/500/500">
+                                            <figcaption class="text-right">This caption is here to link with the image that is being displayed</figcaption>
+                                        </figure>
+                                    </div>
+                                    <p class="paragraph_txt">
+                                    Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                    doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                    Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                    con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                    Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                    simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                    Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                    explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                    Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                    doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                    Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                    con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                    Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    </p>
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Le titre de la sous-section</h6>
+                                    <p class="paragraph_txt">
+                                    Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                    simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                    Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                    explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                    Git re corrovitas et, ipsam quiati sum sundantur, occabo. Cum sum que dit
+                                    doluptae ped magnam, sus raturio remostiatet venditatur aut vollaborro idesed
+                                    Occuptassima periamu sapides sumquianda volupta des alia nonse porrupta
+                                    con eos a conserrum abo. Ut ut acerchi tatiorem. Ucipsaper.Acilignimus quuntio.
+                                    Namenim fugit litatin nostibusam ducillaccus ellenduciist explaut.
+                                    Accus acerfer chillant aut aut quaecti cum ut hilla perianti acit autae sum que
+                                    simolor epelique quibusa eruntio ma ari nobis comnimo lorpore iusaped expeliati
+                                    sequi sit volut alicaeptiame minctio. Ut ut acerchi tatiorem. Ucipsaper.
+                                    Acilignimus quuntio. Namenim fugit litatin nostibusam ducillaccus ellenduciist
+                                    explaut et a di blaborr ovidit ende nus doloritatis vent.
+                                    </p>
+                                    <div class="exercice_insert mt-4">
+                                        <strong class="exercice_position">Exercice 1.1.3</strong><strong class="type-qcm">&nbsp;</strong>
+                                        <div class="content">
+                                            <h6 class="exercie_subtitle"></span>Le titre de l'exercice</h6>
+                                            <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                                ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.Busam
+                                                erspitiae voluptate quaes nempor autem quate.</p>
+                                                <a class="btn" href="./student_exercice_solo.html">Accéder à l'exercice</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="exercice_insert mt-4">
+                                        <strong class="exercice_position">Exercice 1.1.3</strong><strong class="type-sort">&nbsp;</strong>
+                                        <div class="content">
+                                            <h6 class="exercie_subtitle"></span>Le titre de l'exercice</h6>
+                                            <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                                ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.Busam
+                                                erspitiae voluptate quaes nempor autem quate.</p>
+                                                <a class="btn" href="./student_exercice_solo.html">Accéder à l'exercice</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="exercice_insert mt-4">
+                                        <strong class="exercice_position">Exercice 1.1.3</strong><strong class="type-essay">&nbsp;</strong>
+                                        <div class="content">
+                                            <h6 class="exercie_subtitle"></span>Le titre de l'exercice</h6>
+                                            <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                                ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.Busam
+                                                erspitiae voluptate quaes nempor autem quate.</p>
+                                                <a class="btn" href="./student_exercice_solo.html">Accéder à l'exercice</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="exercice_insert mt-4">
+                                        <strong class="exercice_position">Exercice 1.1.3</strong><strong class="type-label">&nbsp;</strong>
+                                        <div class="content">
+                                            <h6 class="exercie_subtitle"></span>Le titre de l'exercice</h6>
+                                            <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                                ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.Busam
+                                                erspitiae voluptate quaes nempor autem quate.</p>
+                                                <a class="btn" href="./student_exercice_solo.html">Accéder à l'exercice</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="exercice_insert mt-4">
+                                        <strong class="exercice_position">Exercice 1.1.3</strong><strong class="type-pairs">&nbsp;</strong>
+                                        <div class="content">
+                                            <h6 class="exercie_subtitle"></span>Le titre de l'exercice</h6>
+                                            <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                                ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.Busam
+                                                erspitiae voluptate quaes nempor autem quate.</p>
+                                                <a class="btn" href="./student_exercice_solo.html">Accéder à l'exercice</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="exercice_insert mt-4">
+                                        <strong class="exercice_position">Exercice 1.1.3</strong><strong class="type-true_false">&nbsp;</strong>
+                                        <div class="content">
+                                            <h6 class="exercie_subtitle"></span>Le titre de l'exercice</h6>
+                                            <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                                ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.Busam
+                                                erspitiae voluptate quaes nempor autem quate.</p>
+                                                <a class="btn" href="./student_exercice_solo.html">Accéder à l'exercice</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row faire_le_point px-4 py-5">
+                                <div class="col-12">
+                                    <h5 class="basic_subtitle mb-5">FAIRE LE POINT</h5>
+                                    <h6 class="paragraph_subtitle"><span style="background-color: #feba15;" class="puce"></span>Révision des objectifs de chapitre</h6>
+                                    <p>Adi optatiae non consequat repeliq uation nus ea quo bea perum etur,
+                                        ea quis accae. Fugia nonestrum quaspero vollaborae prest, ipsam.</p>
+                                    <div class="faire_le_point_content">
+                                        <ul>
+                                            <li>Quiam faccus utempe cuptatium
+                                                <p>Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspediOllique
+                                                    voluptaque voloreperiam ut parum aut etur autem aut ea sunt
+                                                    ipitiis everchil ium abor alitios eum rerempor am eumendignam consenit, ad</p>
+                                            </li>
+                                            <li>Quiam faccus utempe cuptatium
+                                                <p>Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspediOllique
+                                                    voluptaque voloreperiam ut parum aut etur autem aut ea sunt
+                                                    ipitiis everchil ium abor alitios eum rerempor am eumendignam consenit, ad</p>
+                                            </li>
+                                            <li>Quiam faccus utempe cuptatium
+                                                <p>Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspediOllique
+                                                    voluptaque voloreperiam ut parum aut etur autem aut ea sunt
+                                                    ipitiis everchil ium abor alitios eum rerempor am eumendignam consenit, ad</p>
+                                            </li>
+                                            <li>Quiam faccus utempe cuptatium
+                                                <p>Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspediOllique
+                                                    voluptaque voloreperiam ut parum aut etur autem aut ea sunt
+                                                    ipitiis everchil ium abor alitios eum rerempor am eumendignam consenit, ad</p>
+                                            </li>
+                                            <li>Quiam faccus utempe cuptatium
+                                                <p>Passit fugiatium incipsa pedigen ihiciis dignim deliqui omni te reictot aquaspediOllique
+                                                    voluptaque voloreperiam ut parum aut etur autem aut ea sunt
+                                                    ipitiis everchil ium abor alitios eum rerempor am eumendignam consenit, ad</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+
+                            <div class="row">
+                                <div class="col-md-12 d-flex">
+                                    <a href="student_exercice.html" class="mt-2 ml-1 btn btn-primary mx-auto">Complete the Chapter Test</a>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-md-6 mx-auto">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_3.html" class="mt-2 ml-1 btn btn-primary mx-auto">&lt;&lt; Previous Chapter</a>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_5.html" class="mt-2 ml-1 btn btn-primary mx-auto">Next Chapter &gt;&gt;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div id="bibliography">
+        <div class="app-main__inner">
+				
+            <a data-toggle="collapse" href="#reading_nav" class="btn-open-options btn btn-primary button_expand_mobile" aria-expanded="false"><span class="fa fa-indent fa-w-16"></span></a>
+            
+            <div class="parent_header_reading">
+                <div class="header_reading">
+                    <div class="row navbar_uncollapsed_desktop">
+                        <div class="col-md-9">
+                            <h1 class="ml-2 mt-2 title_chapter_nav">Bibliographie</h1>
+                        </div>
+                        <div class="col-md-3">
+                            <a data-toggle="collapse" href="#reading_nav" class="btn btn-primary float-right m-2 book_navigation" aria-expanded="true"><span class="sign">+</span> Book Navigation</a>
+                        </div>
+                    </div>
+                    
+                    <div class="collapse row" id="reading_nav">
+                        <div class="col-md-12">
+                            <hr class="m-0">
+                        </div>
+                        <div class="col-md-8 pr-0 menu_separator">
+                        
+                            <div class="card-body pr-0">
+                                
+                                <h2 class="card-title">Bibliographie</h2>
+                                <div class="scroll-area-sm">
+                                    <div class="scrollbar-container ps--active-y ps">
+                                        <ul class="book_index p-0">
+                                            <li><a href="#">Chapter 1: Lorem Ipsum dolor sit amet</a></li>
+                                            <li class="active_chapter pl-3">Chapter 2: Lorem Ipsum dolor sit amet</li>
+                                            <li><a href="#">Chapter 3: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 4: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 5: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 6: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 7: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 8: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 9: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 10: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 11: Lorem Ipsum dolor sit amet</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pr-3">
+                                <hr class="d-md-none">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="position-relative">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="d-inline-block  pl-2 pt-3">Font size: </p>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <a href="#" class="bigger_font pl-2 pr-2">A<sup>+</sup></a>
+                                        <a href="#" class="lower_font pl-2 pr-2">A<sup>-</sup></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label pl-2" for="note_editeur">View Editor's Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_editeur" checked data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_teacher">View Teacher's Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_teacher" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_perso">View My Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_perso" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>										
+                            </div>
+                            <div class="position-relative mb-3 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_add">Enable Note Editing</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_add" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12" id="reading_percentage">
+                        <div class="bar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;" role="progressbar"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tab-content size_temoin">
+                <div class="tab-pane tabs-animation fade show active">
+                    <div class="main-card mb-3 card">
+                        <!-- the class here will change according to the part of the book : Introcution, table_of_content, chapter ...-->
+                        <div class=" pb-4 table_of_content">
+                            <div class="row">
+                                <div class="col-md-12 px-4">
+                                    <!-- The table of content is generated from the chapters uploaded through the xml
+                                    The colors also come from the XML with the field : -->
+                                    <!-- The title is always the same -->
+                                    <h2 class="standard_main_title">Bibliographie</h2>
+                                    <img class="img-fluid" src="assets/book/transp_for_size.png" />
+                                </div>	
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>NOM DE RÉFÉRENCE</strong>
+                                    <span>00/00/0000</span>
+                                    <p class="px-4">Iniste volest, sus rersperorio.
+                                        Rehendae dolore vitatur.</p>
+                                </div>
+
+
+                            </div>
+
+                            <div class="row d-flex">
+                                <div class="col-md-6 mx-auto">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row chapter_nav">
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_5.html" class="mt-2 ml-1 btn btn-primary mx-auto">&lt;&lt; Previous Chapter</a>
+                                </div>
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_7.html" class="mt-2 ml-1 btn btn-primary mx-auto">Iconographie &gt;&gt;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div id="iconography">
+        <div class="app-main__inner">
+				
+            <a data-toggle="collapse" href="#reading_nav" class="btn-open-options btn btn-primary button_expand_mobile" aria-expanded="false"><span class="fa fa-indent fa-w-16"></span></a>
+            
+            <div class="parent_header_reading">
+                <div class="header_reading">
+                    <div class="row navbar_uncollapsed_desktop">
+                        <div class="col-md-9">
+                            <h1 class="ml-2 mt-2 title_chapter_nav">Iconographie</h1>
+                        </div>
+                        <div class="col-md-3">
+                            <a data-toggle="collapse" href="#reading_nav" class="btn btn-primary float-right m-2 book_navigation" aria-expanded="true"><span class="sign">+</span> Book Navigation</a>
+                        </div>
+                    </div>
+                    
+                    <div class="collapse row" id="reading_nav">
+                        <div class="col-md-12">
+                            <hr class="m-0">
+                        </div>
+                        <div class="col-md-8 pr-0 menu_separator">
+                        
+                            <div class="card-body pr-0">
+                                
+                                <h2 class="card-title">Iconographie</h2>
+                                <div class="scroll-area-sm">
+                                    <div class="scrollbar-container ps--active-y ps">
+                                        <ul class="book_index p-0">
+                                            <li><a href="#">Chapter 1: Lorem Ipsum dolor sit amet</a></li>
+                                            <li class="active_chapter pl-3">Chapter 2: Lorem Ipsum dolor sit amet</li>
+                                            <li><a href="#">Chapter 3: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 4: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 5: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 6: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 7: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 8: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 9: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 10: Lorem Ipsum dolor sit amet</a></li>
+                                            <li><a href="#">Chapter 11: Lorem Ipsum dolor sit amet</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pr-3">
+                                <hr class="d-md-none">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="position-relative">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="d-inline-block  pl-2 pt-3">Font size: </p>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        <a href="#" class="bigger_font pl-2 pr-2">A<sup>+</sup></a>
+                                        <a href="#" class="lower_font pl-2 pr-2">A<sup>-</sup></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label pl-2" for="note_editeur">View Editor's Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_editeur" checked data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_teacher">View Teacher's Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_teacher" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                            <div class="position-relative mb-1 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_perso">View My Notes</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_perso" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>										
+                            </div>
+                            <div class="position-relative mb-3 row">
+                                <div class="col-9 col-sm-8 col-xl-9">
+                                    <label class="form-check-label  pl-2" for="note_add">Enable Note Editing</label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="checkbox" id="note_add" data-toggle="toggle" data-size="small" data-onstyle="primary" data-offstyle="light">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12" id="reading_percentage">
+                        <div class="bar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;" role="progressbar"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tab-content size_temoin">
+                <div class="tab-pane tabs-animation fade show active">
+                    <div class="main-card mb-3 card">
+                        <!-- the class here will change according to the part of the book : Introcution, table_of_content, chapter ...-->
+                        <div class=" pb-4 table_of_content">
+                            <div class="row">
+                                <div class="col-md-12 px-4">
+                                    <!-- The table of content is generated from the chapters uploaded through the xml
+                                    The colors also come from the XML with the field : -->
+                                    <!-- The title is always the same -->
+                                    <h2 class="standard_main_title">Iconographie</h2>
+                                    <img class="img-fluid" src="assets/book/transp_for_size.png" />
+                                </div>	
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 px-4 biblio_reference">
+                                    <strong>P. 123 Titre de l'image</strong>
+                                    <p class="px-4">Iniste volest, sus rersperorio. Rehendae dolore vitatur.</p>
+                                </div>
+
+
+                            </div>
+
+                            <div class="row d-flex">
+                                <div class="col-md-6 mx-auto">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row chapter_nav">
+                                <div class="col-6 d-flex">
+                                    <a href="./book_reading_6.html" class="mt-2 ml-1 btn btn-primary mx-auto">&lt;&lt; Bibliographie</a>
+                                </div>
+                                <div class="col-6 d-flex">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="app-wrapper-footer">
+        <div class="app-footer">
+            <div class="app-footer__inner">
+                <div class="app-footer-left">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                Go to Shop
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                Go to Reading Platform
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="app-footer-right">
+    
+                </div>
+            </div>
+        </div>
+    </div>
+            
+        </div>
+    </div>
+    </div>
+    <script src="./assets/scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+    <!-- These scripts and stylesheets only need to be called in the reading context (during reading or completing exercises) -->
+    <script src="./assets/scripts/reader.js"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+</body>
+
+</html>

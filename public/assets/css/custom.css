@@ -1,0 +1,4 @@
+.req:after {content: '*';color: #ff0000;} .parsley-errors-list li{color:#de4848;font-size:.9em;margin-top:3px;list-style:none!important;text-align: end}.parsley-errors-list li:before{font-family:'Font Awesome 5 Free';content:'\f05a';margin:0 5px 0 -15px;color:red}
+h4.covrd{ background-color: #3f6ad8;padding: 5px;color: #fff;} #notes_container img{width: auto !important;height: 140px !important;margin: 0 auto 1em auto;} .notes_container_img{width: auto !important;height: 140px !important;margin: 0 auto 1em auto;}
+.note-card .card-body img{width: auto !important;height: 140px !important;margin: 0 auto 1em auto;} figure.text-center img{width: auto !important;height: 140px !important;margin: 0 auto 1em auto;}
+.spns.pe-7s-close-circle{display: none;}.spns.pe-7s-close-circle.active{display: block; position: absolute;font-size: 25px;color: #000;font-weight: bold;left: 4px;top: 30%;cursor: pointer;}

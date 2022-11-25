@@ -1,0 +1,16 @@
+<?php
+$ip_exists_query = "SELECT * FROM ".$wpdb->prefix."ip_based_login WHERE 
+		`start` BETWEEN '".ip2long($_POST['start'])."' AND '".ip2long($_POST['end'])."'
+		OR `end` BETWEEN '".ip2long($_POST['start'])."' AND '".ip2long($_POST['end'])."';";
+		$ip_exists = $wpdb->get_results($ip_exists_query);
+		//print_r($ip_exists);
+		
+		if(!empty($ip_exists)){
+			$error[] = __('<div class="errormessage">IP Already exist </div>', 'ip-based-login');
+			foreach($error as $error)
+{
+    echo $error;
+}
+		}
+		else
+		{

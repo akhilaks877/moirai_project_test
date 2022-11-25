@@ -1,0 +1,496 @@
+.fixed {
+  position: fixed;
+  top: 60px;
+  left: 332px; /*right:30px;*/
+}
+@media (max-width: 767.98px) {
+  .fixed {
+    right: inherit;
+  }
+}
+.closed-sidebar:not(.closed-sidebar-mobile)
+  .app-header
+  .app-header__logo
+  .logo-src {
+  display: block;
+}
+.closed-sidebar:not(.closed-sidebar-mobile) .app-header .app-header__logo {
+  width: 180px;
+}
+.closed-sidebar:not(.closed-sidebar-mobile)
+  .app-header
+  .app-header__logo
+  .header__pane {
+  display: none;
+}
+#reading_percentage {
+  padding: 0px;
+}
+#reading_percentage .bar {
+  height: 4px;
+  background: #3f6ad8;
+}
+.header_reading .scroll-area-sm {
+  height: 150px;
+  background: url("./assets/images/background-scrollable.png") no-repeat right;
+}
+.menu_separator {
+  border-right: 1px dashed rgba(0, 0, 0, 0.1);
+}
+.title_chapter {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.button_expand_mobile {
+  display: none;
+}
+@media (max-width: 991.98px) {
+  .navbar_uncollapsed_desktop {
+    display: none;
+  }
+  .app-main__inner {
+    padding-top: 0px !important;
+  }
+  .title_chapter {
+    position: inherit;
+    width: inherit;
+    height: inherit;
+    overflow: inherit;
+  }
+  .button_expand_mobile {
+    display: block;
+    position: fixed;
+    top: 90px;
+    right: 10px;
+    z-index: 20;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    line-height: 26px;
+    padding: 0px;
+  }
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+.bigger_font {
+  font-size: 2rem;
+}
+.lower_font {
+  font-size: 1.2rem;
+}
+.book_index {
+  font-size: 1.1rem;
+  list-style-type: none;
+}
+.book_index .active_chapter {
+  font-size: 1.4rem;
+}
+.title_chapter_nav {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+mark {
+  background: yellow;
+}
+.app-main__inner {
+  max-width: 1200px;
+  margin: auto;
+}
+.app-main__inner p {
+  text-align: justify;
+}
+.size_temoin {
+  color: #323440;
+}
+.preface_txt_principal {
+  padding-top: 10px;
+}
+.moirai_data {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.moirai_data img {
+  width: 200px;
+}
+.rights_policy {
+  background-color: #ebe9e1;
+  padding: 20px;
+}
+.avantpropos_citation_1 {
+  margin-bottom: 1rem;
+  display: block;
+  text-align: center;
+}
+.standard_main_title {
+  text-transform: uppercase;
+  padding-left: 40px;
+  background: url("./assets/book/slash_before_title.png") no-repeat left;
+  margin: 40px 0px 0px 0px;
+}
+.table_of_content ol li {
+  list-style-type: none;
+  font-size: 1.1rem;
+}
+.table_of_content ol li {
+  font-weight: bold;
+}
+.table_of_content ol > ol > li {
+  font-weight: normal;
+}
+.partie_title {
+  width: 100%;
+  display: block;
+  margin: 50px 0px 30px 0px;
+}
+.table_of_content .chapter_title {
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+}
+.table_of_content .chapter_title:hover {
+  opacity: 0.9;
+}
+.table_of_content .chapter_number {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  margin-left: -10px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+.table_of_content .chapter_number:hover {
+  opacity: 0.9;
+}
+.table_of_content .partie_title a,
+.table_of_content a .chapter_title,
+.table_of_content a .chapter_number,
+.parapraph_title a {
+  color: #323440;
+}
+.table_of_content .partie_title a:hover,
+.table_of_content a .chapter_title:hover,
+.table_of_content a .chapter_number:hover,
+.parapraph_title a:hover {
+  color: #000000;
+  filter: brightness(1.1);
+  text-decoration: none;
+}
+.partie_block {
+  background: #ebe9e1;
+  padding: 20px 0px;
+}
+.chapter .chapter_summary .partie_title {
+  font-size: 4rem;
+  margin: 0px 0px 0px 0px;
+}
+.chapter .chapter_summary .partie_subtitle {
+  display: block;
+  font-size: 1.5rem;
+  margin: 0px 0px 20px 0px;
+}
+.chapter .chapter_summary .chapter_container {
+  margin: 10px 0px;
+}
+.chapter .chapter_summary .chapter_container h4 {
+  margin-bottom: 0px;
+}
+.chapter .chapter_summary .chapter_container a {
+  color: #323440;
+}
+.chapter .chapter_title_container .chapter_title {
+  padding-left: 30px;
+  background: url("./assets/book/slash_before_title.png") no-repeat left top;
+  background-size: 20px auto;
+  font-size: 2rem;
+}
+.objectifs_aprentissage .objectif {
+  margin-bottom: 20px;
+}
+.objectifs_aprentissage .objectif_counter {
+  display: block;
+  color: #323440;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  padding: 7px 0 0 18px;
+  float: left;
+  margin-right: 20px;
+}
+.basic_subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.chapter_content .img-insert-txt {
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.chapter_content figcaption {
+  font-style: normal;
+}
+.chapter_content .chapitre_section {
+  margin-top: 35px;
+}
+.chapter_content .chapitre_section .section_number {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  margin-left: -24px;
+}
+.chapter_content .chapitre_section .section_title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  display: inline-block;
+  padding: 10px 0px 10px 20px;
+}
+.chapter_content .chapitre_section .paragraph_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.paragraph_title .number {
+  padding: 4px 10px;
+  margin-right: 10px;
+}
+.chapter_content .chapitre_section .paragraph_subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.chapter_content .chapitre_section .exercie_subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.chapter_content .chapitre_section .paragraph_subtitle .puce {
+  display: block;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+.chapter_content .rappel {
+  background-color: #ebe9e1;
+  margin: 20px 15%;
+}
+.chapter_content .en-savoir-plus {
+  color: #ffffff;
+  background: url("./assets/book/bg_en_savoir_plus.png") #323440 no-repeat 50px
+    42px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-right: -24px;
+}
+.chapter_content .en-savoir-plus strong {
+  font-size: 1.8rem;
+  padding-left: 100px;
+}
+.chapter_content .blockquote {
+  padding: 0px 20%;
+  font-size: 1rem;
+}
+.chapter_content .remarque {
+  display: block;
+  background-color: #ebe9e1;
+  border-radius: 15px;
+  margin: 20px 0%;
+}
+.retenir .content {
+  display: block;
+  border-radius: 15px;
+  color: #ffffff;
+  background: url("./assets/book/bg_retenir.png") #5f5b66 no-repeat 30px center;
+  padding: 30px 30px 30px 170px;
+}
+.table-responsive strong {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  color: #ffffff;
+  background: #323440;
+  padding: 10px 30px;
+}
+.table-responsive thead th {
+  background: #c8dec2;
+  border: 1px solid #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.table-responsive tr td {
+  background: #ebe9e1;
+  border: 1px solid #fff;
+}
+.figure_with_title strong {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  color: #ffffff;
+  background: #323440;
+  padding: 10px 30px;
+}
+.chapter_content .figure_with_title {
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.faire_le_point_content {
+  display: block;
+  border-radius: 15px;
+  color: #000;
+  background: #ffe8ba;
+  padding: 30px 50px;
+}
+.faire_le_point_content ul {
+  padding-inline-start: 0px;
+}
+.faire_le_point_content li {
+  font-weight: bold;
+}
+.faire_le_point_content li p {
+  font-weight: normal;
+}
+.faire_le_point .paragraph_subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.exercice_insert .exercice_position {
+  display: inline-block;
+  border-top-left-radius: 15px;
+  color: #ffffff;
+  background: #323440;
+  padding: 20px 30px;
+}
+.exercice_insert .type-qcm {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  background: #f26649 url("./assets/book/bg_exercice_qcm.png") no-repeat center
+    center;
+  padding: 20px 20px;
+}
+.exercice_insert .type-essay {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  background: #f26649 url("./assets/book/bg_exercice_essay.png") no-repeat
+    center center;
+  padding: 20px 20px;
+}
+.exercice_insert .type-label {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  background: #f26649 url("./assets/book/bg_exercice_label.png") no-repeat
+    center center;
+  padding: 20px 20px;
+}
+.exercice_insert .type-pairs {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  background: #f26649 url("./assets/book/bg_exercice_pairs.png") no-repeat
+    center center;
+  padding: 20px 20px;
+}
+.exercice_insert .type-sort {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  background: #f26649 url("./assets/book/bg_exercice_sort.png") no-repeat center
+    center;
+  padding: 20px 20px;
+}
+.exercice_insert .type-true_false {
+  display: inline-block;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  background: #f26649 url("./assets/book/bg_exercice_true-false.png") no-repeat
+    center center;
+  padding: 20px 20px;
+}
+.exercice_insert .figure_with_title {
+  max-width: 500px;
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.exercice_insert .content {
+  display: inline-block;
+  color: #323440;
+  border: 1px solid #323440;
+  padding: 30px;
+}
+.exercice_insert .btn,
+.btn-exercice {
+  color: #fff;
+  background-color: #323440;
+  border-color: #323440;
+  font-size: 1rem;
+}
+.exercice_insert .btn:hover,
+.btn-exercice:hover {
+  color: #fff;
+  background-color: #3d4051;
+  border-color: #3d4051;
+}
+.question_number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: inline-block;
+  padding: 8px 15px 8px 15px;
+  margin-left: -24px;
+}
+.question_title {
+  font-size: 1.2rem;
+}
+
+.test_insert .test_title {
+  font-size: 1.2rem;
+  font-weight: normal;
+  display: inline-block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  background: #f26649;
+  padding: 10px 30px;
+}
+.test_insert .content {
+  display: inline-block;
+  color: #000;
+  background: #ebe9e1;
+  padding: 10px 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.test_insert .btn {
+  color: #fff;
+  background-color: #f26649;
+  border-color: #f26649;
+  font-size: 1rem;
+}
+.test_insert .btn:hover {
+  color: #fff;
+  background-color: #cc3c1e;
+  border-color: #cc3c1e;
+}
